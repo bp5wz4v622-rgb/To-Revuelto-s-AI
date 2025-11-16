@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { generateOrEditImage } from '../geminiService';
+import { generateOrEditImage } from './geminiService.ts';
 import Spinner from '../Spinner';
 
 const CreateImage: React.FC = () => {
