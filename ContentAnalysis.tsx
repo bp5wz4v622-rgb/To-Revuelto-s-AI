@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { analyzeContent } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { analyzeContent } from './geminiService.ts';
+import Spinner from './Spinner.tsx';
 
 const ContentAnalysis: React.FC = () => {
   const [text, setText] = useState('');
