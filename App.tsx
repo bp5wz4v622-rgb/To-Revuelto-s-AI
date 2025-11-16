@@ -1,15 +1,16 @@
 import React, { useState, useRef, useEffect } from 'react';
+// Rutas corregidas (sin carpetas)
 import Header from './Header.tsx';
-import DeepResearch from './DeepResearch';
-import CreateImage from './CreateImage';
-import DeepThinking from './DeepThinking';
-import ContentAnalysis from './ContentAnalysis';
-import Interpellation from './Interpellation';
-import SpeechCorrection from './SpeechCorrection';
-import PositionPaperCorrection from './PositionPaperCorrection';
-import TopicBreakdown from './TopicBreakdown';
-import { Feature } from './types';
-import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './components/Icons';
+import DeepResearch from './DeepResearch.tsx';
+import CreateImage from './CreateImage.tsx';
+import DeepThinking from './DeepThinking.tsx';
+import ContentAnalysis from './ContentAnalysis.tsx';
+import Interpellation from './Interpellation.tsx';
+import SpeechCorrection from './SpeechCorrection.tsx';
+import PositionPaperCorrection from './PositionPaperCorrection.tsx';
+import TopicBreakdown from './TopicBreakdown.tsx';
+import { Feature } from './types.tsx'; // Asumiendo que 'types' también necesita la extensión
+import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './Icons.tsx'; // Corregida la ruta de los iconos
 
 const App: React.FC = () => {
   const [activeFeature, setActiveFeature] = useState<Feature>(Feature.DeepResearch);
