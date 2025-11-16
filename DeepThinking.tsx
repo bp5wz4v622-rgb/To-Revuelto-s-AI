@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { solveProblem } from '../geminiService';
+import { solveProblem } from './geminiService.ts';
 import Spinner from '../Spinner';
 
 const DeepThinking: React.FC = () => {
