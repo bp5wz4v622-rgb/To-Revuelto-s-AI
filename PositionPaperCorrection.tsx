@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { correctPositionPaper } from '../geminiService';
+import { correctPositionPaper } from './geminiService.ts';
 import Spinner from '../Spinner';
 
 interface FormData {
