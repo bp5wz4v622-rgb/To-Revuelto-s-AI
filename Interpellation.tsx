@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
-import { startInterpellation, continueInterpellation } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { startInterpellation, continueInterpellation } from '../geminiService';
+import Spinner from '../Spinner';
 import { Chat } from '@google/genai';
 
 interface Message {
