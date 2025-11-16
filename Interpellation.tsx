@@ -1,5 +1,5 @@
 import React, { useState, useCallback, useRef, useEffect } from 'react';
-import { startInterpellation, continueInterpellation } from '../geminiService';
+import { startInterpellation, continueInterpellation } from './geminiService.ts';
 import Spinner from '../Spinner';
 import { Chat } from '@google/genai';
 
