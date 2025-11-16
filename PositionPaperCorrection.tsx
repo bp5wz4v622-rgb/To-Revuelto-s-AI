@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
 import { correctPositionPaper } from './geminiService.ts';
-import Spinner from '../Spinner';
+import Spinner from './Spinner.tsx';
 
 interface FormData {
   commission: string;
