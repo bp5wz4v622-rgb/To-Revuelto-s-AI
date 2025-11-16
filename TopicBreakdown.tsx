@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
-import { getTopicBreakdown } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { getTopicBreakdown } from '../geminiService';
+import Spinner from '../Spinner';
 
 const TopicBreakdown: React.FC = () => {
   const [topic, setTopic] = useState('');
