@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { performDeepResearch } from '../geminiService';
+import { performDeepResearch } from './geminiService.ts';
 import Spinner from '../Spinner';
 import { SearchIcon } from '../Icons';
 
