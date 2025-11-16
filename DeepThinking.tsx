@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
-import { solveProblem } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { solveProblem } from '../geminiService';
+import Spinner from '../Spinner';
 
 const DeepThinking: React.FC = () => {
   const [problem, setProblem] = useState('');
