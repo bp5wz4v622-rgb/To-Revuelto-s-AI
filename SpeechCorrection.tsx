@@ -1,6 +1,6 @@
 import React, { useState, useCallback } from 'react';
-import { correctSpeech } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { correctSpeech } from '../geminiService';
+import Spinner from '../Spinner';
 
 const SpeechCorrection: React.FC = () => {
   const [speech, setSpeech] = useState('');
