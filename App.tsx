@@ -9,7 +9,7 @@ import Interpellation from './Interpellation.tsx';
 import SpeechCorrection from './SpeechCorrection.tsx';
 import PositionPaperCorrection from './PositionPaperCorrection.tsx';
 import TopicBreakdown from './TopicBreakdown.tsx';
-import { Feature } from './types.tsx'; // Asumiendo que 'types' también necesita la extensión
+import { Feature } from './types.ts'; // Asumiendo que 'types' también necesita la extensión
 import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './Icons.tsx'; // Corregida la ruta de los iconos
 
 const App: React.FC = () => {
