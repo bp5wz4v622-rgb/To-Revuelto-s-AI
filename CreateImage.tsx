@@ -1,6 +1,6 @@
 import React, { useState, useCallback, useRef } from 'react';
-import { generateOrEditImage } from '../services/geminiService';
-import Spinner from '../components/Spinner';
+import { generateOrEditImage } from '../geminiService';
+import Spinner from '../Spinner';
 
 const CreateImage: React.FC = () => {
   const [prompt, setPrompt] = useState('');
