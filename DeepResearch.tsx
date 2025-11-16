@@ -1,7 +1,7 @@
 import React, { useState, useCallback } from 'react';
-import { performDeepResearch } from '../services/geminiService';
-import Spinner from '../components/Spinner';
-import { SearchIcon } from '../components/Icons';
+import { performDeepResearch } from '../geminiService';
+import Spinner from '../Spinner';
+import { SearchIcon } from '../Icons';
 
 interface GroundingChunk {
   web?: {
