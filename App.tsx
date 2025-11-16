@@ -1,13 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import Header from './Header.tsx';
-import DeepResearch from './features/DeepResearch';
-import CreateImage from './features/CreateImage';
-import DeepThinking from './features/DeepThinking';
-import ContentAnalysis from './features/ContentAnalysis';
-import Interpellation from './features/Interpellation';
-import SpeechCorrection from './features/SpeechCorrection';
-import PositionPaperCorrection from './features/PositionPaperCorrection';
-import TopicBreakdown from './features/TopicBreakdown';
+import DeepResearch from './DeepResearch';
+import CreateImage from './CreateImage';
+import DeepThinking from './DeepThinking';
+import ContentAnalysis from './ContentAnalysis';
+import Interpellation from './Interpellation';
+import SpeechCorrection from './SpeechCorrection';
+import PositionPaperCorrection from './PositionPaperCorrection';
+import TopicBreakdown from './TopicBreakdown';
 import { Feature } from './types';
 import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './components/Icons';
 
