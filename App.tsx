@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import Header from './components/Header';
+import Header from './components/Header.tsx';
 import DeepResearch from './features/DeepResearch';
 import CreateImage from './features/CreateImage';
 import DeepThinking from './features/DeepThinking';
