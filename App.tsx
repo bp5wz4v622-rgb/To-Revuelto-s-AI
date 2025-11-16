@@ -1,5 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-// Rutas corregidas (sin carpetas)
+import './index.css'; // <<-- ¡LÍNEA AÑADIDA: IMPORTACIÓN DEL CSS GLOBAL!
+// Rutas corregidas (sin carpetas y con extensión correcta)
 import Header from './Header.tsx';
 import DeepResearch from './DeepResearch.tsx';
 import CreateImage from './CreateImage.tsx';
@@ -9,8 +10,8 @@ import Interpellation from './Interpellation.tsx';
 import SpeechCorrection from './SpeechCorrection.tsx';
 import PositionPaperCorrection from './PositionPaperCorrection.tsx';
 import TopicBreakdown from './TopicBreakdown.tsx';
-import { Feature } from './types.ts'; // Asumiendo que 'types' también necesita la extensión
-import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './Icons.tsx'; // Corregida la ruta de los iconos
+import { Feature } from './types.ts'; 
+import { SearchIcon, ImageIcon, BrainIcon, DocumentIcon, EllipsisVerticalIcon, ChatBubbleLeftRightIcon, MicrophoneIcon, DocumentCheckIcon, QuestionMarkCircleIcon } from './Icons.tsx'; 
 
 const App: React.FC = () => {
   const [activeFeature, setActiveFeature] = useState<Feature>(Feature.DeepResearch);
